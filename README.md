@@ -33,7 +33,7 @@ Hello World adalah sebuah aplikasi mobile yang menawarkan pengalaman belajar yan
 [Instagram](https://www.instagram.com/mzulfikrisadrah/)
 
 # Referensi
-[Countries API](https://freetestapi.com/apis/countries
+[Countries API](https://freetestapi.com/apis/countries)
 
 [Design 1](https://dribbble.com/shots/18544068-A-Quiz-App)
 
