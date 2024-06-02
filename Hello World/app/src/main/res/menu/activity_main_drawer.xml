@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_store"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="Store" />
+    <item
+        android:id="@+id/nav_detail"
+        android:icon="@drawable/baseline_info_outline_24"
+        android:title="Detail" />
+    <item
+        android:id="@+id/nav_code"
+        android:icon="@drawable/baseline_card_giftcard_24"
+        android:title="Redeem Code" />
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/reward_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awesome!!"
+        android:textSize="40dp"
+        android:fontFamily="@font/kavoon"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Reward"
+            android:textSize="20sp"
+            android:fontFamily="@font/vesperlibre"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/coin"/>
+
+            <TextView
+                android:id="@+id/tvReward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/home"
+                android:layout_marginEnd="50dp"/>
+
+            <ImageView
+                android:id="@+id/iv_next"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/next"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6E7FF"
+    tools:context=".Fragment.StoreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="20dp"
+            android:background="#9A66F6"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:layout_gravity="center"
+                >
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Information"
+                android:textSize="30dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/vesperlibre"
+                android:gravity="center"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/games_bg"
+            android:layout_marginHorizontal="30dp"
+            android:paddingBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_negara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Negara"
+                android:fontFamily="@font/kavoon"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:id="@+id/linear_population"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/population"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tv_population"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Population"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/inter"
+                        >
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear_land"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/land"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tv_land"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Land"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/inter"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:id="@+id/linear_density"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/density"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tv_density"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Density"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/inter"
+                        >
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear_capital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/kota"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tv_capital"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Capital"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/inter"
+                        android:gravity="center"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:id="@+id/linear_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/uang"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tv_currency"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Currency"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/inter"
+                        >
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

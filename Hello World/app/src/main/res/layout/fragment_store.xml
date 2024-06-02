@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.StoreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="20dp"
+            android:background="#9A66F6"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Store"
+                android:textSize="30dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/vesperlibre"
+                android:gravity="center"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/life"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingVertical="5dp"
+                    android:paddingRight="15dp"
+                    android:layout_toLeftOf="@+id/coin"
+                    android:background="@drawable/coin_bg"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/life"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/tv_life"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="20dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingVertical="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingRight="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/coin_bg"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/coin"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/tv_coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="20dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="35dp"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <FrameLayout
+                            android:id="@+id/life1"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/icon_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/life"
+                                android:padding="20dp"
+                                android:layout_marginVertical="10dp"
+                                android:scaleType="centerInside" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="20dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/inter"
+                                android:textColor="#FFFFFF" />
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="20dp"
+                                >
+                            </TextView>
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/coin"
+                                >
+                            </ImageView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginLeft="40dp"
+                        >
+
+                        <FrameLayout
+                            android:id="@+id/life3"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/icon_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/life"
+                                android:padding="20dp"
+                                android:layout_marginVertical="10dp"
+                                android:scaleType="centerInside" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="20dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/inter"
+                                android:textColor="#FFFFFF" />
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="20dp"
+                                >
+                            </TextView>
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/coin"
+                                >
+                            </ImageView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <FrameLayout
+                            android:id="@+id/life5"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/icon_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/life"
+                                android:padding="20dp"
+                                android:layout_marginVertical="10dp"
+                                android:scaleType="centerInside" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="20dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/inter"
+                                android:textColor="#FFFFFF" />
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textSize="20dp"
+                                >
+                            </TextView>
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/coin"
+                                >
+                            </ImageView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginLeft="40dp"
+                        >
+
+                        <FrameLayout
+                            android:id="@+id/life10"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/icon_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/life"
+                                android:padding="20dp"
+                                android:layout_marginVertical="10dp"
+                                android:scaleType="centerInside" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10"
+                                android:textSize="20dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/inter"
+                                android:textColor="#FFFFFF" />
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7"
+                                android:textSize="20dp"
+                                >
+                            </TextView>
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/coin"
+                                >
+                            </ImageView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
