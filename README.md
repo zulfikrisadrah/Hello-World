@@ -27,11 +27,6 @@ Hello World adalah sebuah aplikasi mobile yang menawarkan pengalaman belajar yan
 7.	**Pencarian dan Filter pada Daftar Negara**: Hasil pencarian akan ditampilkan berdasarkan persamaan inputan dan nama negara yang tersedia melalui implementasi method performFiltering(CharSequence constraint) pada class CountryAdapter. Hasil pemilihan filter akan ditampilkan berdasarkan atribut negara yang telah ditambahkan yaitu “locked” dengan menggunakan implementasi method applyFilters() pada class DetailFragment.
 8.	**Redeem Code**: Pengguna dapat memasukkan kode rahasia untuk memperoleh hadiah berupa life atau coin. Proses ini dikelola dengan method redeemCode(String inputCode) yang memeriksa validitas kode yang dimasukkan pengguna dengan kode yang telah ditentukan sebelumnya.
 
-## Author
-[Github](https://github.com/zulfikrisadrah)
-
-[Instagram](https://www.instagram.com/mzulfikrisadrah/)
-
 ## Referensi
 [Countries API](https://freetestapi.com/apis/countries)
 
