@@ -29,9 +29,12 @@ Hello World adalah sebuah aplikasi mobile yang menawarkan pengalaman belajar yan
 
 # Author
 [Github](https://github.com/zulfikrisadrah)
+
 [Instagram](https://www.instagram.com/mzulfikrisadrah/)
 
 # Referensi
-[Countries API](https://freetestapi.com/apis/countries)
+[Countries API](https://freetestapi.com/apis/countries
+
 [Design 1](https://dribbble.com/shots/18544068-A-Quiz-App)
+
 [Design 2](https://dribbble.com/shots/17444278-Quize-Game-Mobile-App)
